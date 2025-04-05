@@ -1,6 +1,6 @@
-# React Registration Form with JSON Server
+## 📋 React Registration Form with CRUD & Validations
 
-This project is a simple and aesthetic registration form built using **React** with full CRUD functionality using a mock backend powered by **JSON Server**.
+This project is a responsive and aesthetic registration form built using React, offering full CRUD functionality with a mock backend powered by JSON Server. It also features comprehensive form validations to ensure the integrity and correctness of user input.
 
 ---
 
@@ -67,18 +67,24 @@ npm start
 
 ## ✨ Features
 
-- CRUD (Create, Read, Update, Delete)
-- Aesthetic form design
-- Uses mock backend with JSON Server
+✅ **Create**, **Read**, **Update**, and **Delete** student records
+✅ **Real-time form validation** for:
+- Empty fields
+- Valid email format
+- Name containing only letters and spaces
+- Numeric-only input for age and phone number
+- Password and confirm password match
+✅ **Inline error messages** for user-friendly guidance
+✅ **Checkbox declaration validation** before form submission
+✅ **Toggleable button states** based on view/update mode
 
 ---
 
-## 🔧 Technologies Used
-
-- React
-- JavaScript (Fetch Api)
-- CSS
-- JSON Server
+## 🛠 Tech Stack
+- React (useRef, useState)
+- JSON Server (for mock backend API)
+- Fetch API (for HTTP requests)
+- CSS (for styling the form layout and buttons)
 
 ---
 
