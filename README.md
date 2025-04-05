@@ -67,7 +67,7 @@ npm start
 
 ## ✨ Features
 
-✅ **Create**, **Read**, **Update**, and **Delete** student records
+✅ **Create**, **Read**, **Update**, and **Delete**  records
 ✅ **Real-time form validation** for:
 - Empty fields
 - Valid email format
