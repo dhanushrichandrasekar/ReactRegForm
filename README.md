@@ -16,50 +16,53 @@ ReactRegForm/
 │       ├── MockReg.js
 │       ├── CrudStyle.css
 │       └── index.css
-├── src/               # JSON Server mock backend
+├── src/                    # JSON Server mock backend
 │   └── db.json             # JSON file for CRUD data
 ```
 
 ---
 
-## 🚀 How to Run the Project
+# ✅ Steps to Clone Your React CRUD Registration Form Project
 
-### Step 1: Start the JSON Server
+1. **Open Terminal / PowerShell / Git Bash**
 
-1. Open terminal and go to the db.json file in the src folder:
-   ```bash
-   cd foldername
-   ```
+2. **Navigate to the Folder Where You Want the Project**
+```bash
+cd path/to/your/folder
+```
 
-2. Run JSON Server:
-   ```bash
-   npx json-server --watch db.json 
-   ```
+3. **Clone the Repository**
+```bash
+git clone https://github.com/dhanushrichandrasekar/ReactRegForm.git
+```
 
-3. JSON Server will start at:
-   ```
-   http://localhost:3000
-   ```
+4. **Go Into the Project Folder**
+```bash
+cd ReactRegForm
+```
 
----
+5. **Install the Dependencies**
+```bash
+npm install
+```
 
-### Step 2: Run the React App
+6. **Start the Mock JSON Server (in one terminal)**
+> Make sure you’ve installed json-server globally:
+```bash
+npm install -g json-server
+```
 
-1. Open a new terminal and go to the `react-app` folder:
-   ```bash
-   cd react-app
-   ```
+Then run:
+```bash
+json-server --watch src/db.json
+```
 
-2. Start the app:
-   ```bash
-   npm start
-   ```
+⚠️ Adjust the path if your `db.json` is in another folder (like `mock-backend`).
 
-3. The React app will run at:
-   ```
-   http://localhost:3000
-   ```
-
+7. **Start the React App (in another terminal)**
+```bash
+npm start
+```
 ---
 
 ## ✨ Features
