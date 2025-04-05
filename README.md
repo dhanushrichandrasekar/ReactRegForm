@@ -52,9 +52,9 @@ npm install
 npm install -g json-server
 ```
 
-Then run:
+Save the db.json file in a folder(ex: src) in a separate react app and run :
 ```bash
-json-server --watch src/db.json
+json-server --watch foldername/db.json
 ```
 
 ⚠️ Adjust the path if your `db.json` is in another folder (like `mock-backend`).
