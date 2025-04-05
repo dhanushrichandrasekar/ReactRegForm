@@ -2,6 +2,8 @@
 
 This project is a responsive and aesthetic registration form built using React, offering full CRUD functionality with a mock backend powered by JSON Server. It also features comprehensive form validations to ensure the integrity and correctness of user input.
 
+![Registration Form Screenshot](https://github.com/dhanushrichandrasekar/ReactRegForm/blob/f40760f1c8cf5b4f0ecf23101492a8497b986968/RegistrationForm.png)
+
 ---
 
 ## 📁 Folder Structure
